@@ -19,8 +19,8 @@ function App() {
     <div className="count">
       <div className="count__title">Count: {count}</div>
       <div className="count__buttons">
-        <button onClick={handleClickPlus} className="count__buttons-plus">PLUS</button>
-        <button disabled={count === 0} onClick={handleClickMinus} className="count__buttons-minus">MINUS</button>
+        <button onClick={handleClickPlus} className="count__buttons-plus">INCREMENT</button>
+        <button disabled={count === 0} onClick={handleClickMinus} className="count__buttons-minus">DECREMENT</button>
         <button disabled={count === 0}  onClick={handleClickReset} className="count__buttons-reset">RESET</button>
       </div>
     </div>
